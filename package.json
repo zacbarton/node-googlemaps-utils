@@ -1,0 +1,31 @@
+{
+  "name": "googlemaps-utils",
+  "description": "A collection of utility functions for Google Maps.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Zac Barton"
+  },
+  "scripts": {
+  	"pretest": "npm install mocha should",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacbarton/node-googlemaps-utils"
+  },
+  "dependencies": {
+    "mercator-projection": "0.0.1"
+  },
+  "devDependencies": {
+  	"mocha": "*",
+  	"should": "*"
+  },
+  "keywords": [
+    "google"
+    , "googlemaps"
+    , "utils"
+    , "bounds"
+    , "zoom"
+    , "staticmaps"
+  ]
+}
